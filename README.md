@@ -242,7 +242,7 @@ If you'd like to improve Brainy.Mediator, feel free to open an issue or submit a
 
 # Author
 
-Brainy.Mapper is created and maintained by **Shakeel Iqbal**, a Senior .NET Architect and C# Developer with extensive experience building enterprise applications and software solutions using the Microsoft technology stack.
+Brainy.Mediator is created and maintained by **Shakeel Iqbal**, a Senior .NET Architect and C# Developer with extensive experience building enterprise applications and software solutions using the Microsoft technology stack.
 
 - LinkedIn: [Shakeel Iqbal](https://www.linkedin.com/in/shakeel-iqbal1/)
 - Company: [Brainy Solutions](https://www.brainy-solutions.com/)
