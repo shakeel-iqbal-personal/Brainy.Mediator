@@ -257,8 +257,6 @@ This project is licensed under the MIT License.
 
 ## About Brainy Solutions
 
-Brainy.Mediator is maintained by **Brainy Solutions**.
-
 We build modern software solutions using .NET, cloud technologies, AI, and enterprise architecture. As part of our commitment to the developer community, we actively open-source tools and libraries that help simplify software development.
 
 If you find Brainy.Mediator useful, feel free to ⭐ star the repository, report issues, suggest improvements, or contribute through a pull request.
