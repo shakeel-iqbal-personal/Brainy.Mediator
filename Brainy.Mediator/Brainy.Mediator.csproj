@@ -1,10 +1,61 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
+
     <ImplicitUsings>enable</ImplicitUsings>
+
     <Nullable>enable</Nullable>
+
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
+    <PackageId>Brainy.Mediator</PackageId>
+
+    <Version>1.0.0</Version>
+
+    <Authors>Shakeel Iqbal</Authors>
+
+    <Company>Brainy Solutions</Company>
+
+    <Product>Brainy.Mediator</Product>
+
+    <Description>
+
+      A lightweight, dependency-injection friendly Mediator library for .NET.
+
+      Brainy.Mediator is an open-source implementation of the Mediator pattern designed to simplify communication between different parts of your application. It helps you write clean, maintainable, and loosely coupled code without introducing unnecessary complexity.
+    </Description>
+
+    <PackageTags>
+
+      Mediator;MediaTr;dotnet
+    </PackageTags>
+
+    <RepositoryUrl>
+      https://github.com/shakeel-iqbal-personal/Brainy.Mediator
+    </RepositoryUrl>
+
+    <RepositoryType>git</RepositoryType>
+
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <PackageIcon>icon.png</PackageIcon>
+
+    <Title>Brainy Mapper</Title>
+
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="docs\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.5" />
